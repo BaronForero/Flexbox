@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*@font-face {
+    font-family: ;
+    src: url();
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}*/
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+/*==============================================*/
+
+h1,
+a {
+    color: white;
+}
+
+/*===========header===================================*/
+
+body {
+    background-image: url('../img/mos-design-hlPB9IUEq-4-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+header {
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 4rem;
+    font-size: 3rem;
+}
+
+header nav {
+    width: 40%;
+}
+
+header nav ul {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+header nav ul a {
+    display: block;
+    text-decoration: none;
+}
